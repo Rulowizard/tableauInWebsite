@@ -1,0 +1,70 @@
+body{
+    background-color: transparent;
+}
+
+.navbar{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-header{
+    padding-left: 50px;
+}
+
+#back_image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: -1;
+    filter: brightness(60%);
+}
+
+#h1_back_image{
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: .25rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#tableau{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top:25%;
+    text-align: center;
+    background-color: white;
+}
+
+#vizContainer{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

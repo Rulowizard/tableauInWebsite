@@ -1,0 +1,129 @@
+body{
+    background-color: transparent;
+}
+
+.navbar{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-header{
+    padding-left: 50px;
+}
+
+#back_image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: -1;
+    filter: brightness(60%);
+
+}
+
+#h1_back_image{
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: .25rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#input_forms{
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    top: 45%;
+}
+
+.boton{
+    background-color: #0bce7c;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 30px;
+    width: 180px;
+    height: 60px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.col-xs-4{
+    margin-top: 90px;
+    text-align: center;
+    border-right-style: solid;
+    border-right-color: darkgrey;
+    border-right-width: 1px;
+    padding-bottom: 60px;
+}
+
+
+#label_pass,#label_user,#label_profile{
+    color: #0bce7c;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+#input_user,#input_pass,#input_profile{
+    width: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 25px;
+}
+
+#input_user{
+    margin-left: 105px;
+}
+
+#input_pass{
+    margin-left: 20px;
+}
+
+#input_profile{
+    margin-left: 112px;
+    height: 35.55px;
+}
+
+#label_pass::after{
+    content: " *";
+    color: red;
+}
+
+#label_profile::after{
+    content: " *";
+    color: red;
+}
+
+#label_user::after{
+    content: " *";
+    color: red;
+}
+
+#titulo{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#div1,#div2,#div3{
+    margin-top: 30px;
+}
+
+#submit{
+    margin-left: 100px;
+}
+
+
+
+
